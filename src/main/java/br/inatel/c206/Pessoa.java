@@ -20,8 +20,8 @@ public class Pessoa {
 
     }
     public void mostraInfo(){
-        System.out.println(this.nome);
-        System.out.println(this.cpf);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("CPF: " + this.cpf);
         for(int i=0;i<enderecos.length;i++){
             if(enderecos[i] != null){
                 System.out.println("Rua: " + enderecos[i].rua);
